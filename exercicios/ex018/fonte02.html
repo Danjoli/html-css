@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face{
+            font-family: 'Daily';
+            src: url(fontes/Daily\ Bubble.ttf) format(opentype), url(fontes/Daily\ Bubble.ttf) format(truestype);
+            font-weight: normal;
+            font-style: normal;
+
+        /* 
+            Tipos de format()
+            - opentype (otf)
+            - truestype (ttf)
+            - embedded-opentype
+            - truestype-aat (Apple Advanced Typography)
+            - svg
+        */
+
+        }
+        body{
+            font-family: 'Arial';
+        }
+
+        h1{
+            font-family: 'Daily', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate obcaecati, qui labore dignissimos enim iure harum aspernatur illum repudiandae aut corrupti cupiditate doloremque distinctio, tenetur placeat dolorum impedit magnam maxime.</p>
+</body>
+</html>

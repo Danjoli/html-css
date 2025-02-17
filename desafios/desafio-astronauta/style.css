@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+img#espaco {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Preenche a tela sem distorcer */
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+img#astronauta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza perfeitamente */
+    width: 400px; /* Ajuste conforme necessário */
+    height: auto;
+}
