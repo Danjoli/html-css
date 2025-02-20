@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-areas: "topo topo"
+                         "meio meio2"
+                         "meiob meiob"
+                         "baixo baixo";
+    gap: 20px
+}
+
+.img-1 {
+    grid-area: topo;
+}
+
+.img-2 {
+    grid-area: baixo;
+}
+
+.img-3 {
+    grid-area: meiob;
+}
